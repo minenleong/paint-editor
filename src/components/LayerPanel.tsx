@@ -18,7 +18,7 @@ const LayerPanel = observer(() => {
         height: "auto", 
       }}
     >
-      <h2>Layers</h2>
+      <h4>Layers</h4>
       {layers.length === 0 ? (
         <p>No layers yet</p>
       ) : (
