@@ -40,7 +40,7 @@ const ControlPanel = observer(() => {
             >
               <option value="circle">Circle</option>
               <option value="square">Square</option>
-              <option value="rect">Rectangle</option>
+              <option value="rectangle">Rectangle</option>
               <option value="triangle">Triangle</option>
             </select>
           </label>
