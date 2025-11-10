@@ -104,7 +104,7 @@ const CanvasArea = observer(() => {
   };
 
   return (
-    <div>
+    <div className="canvasArea-background">
       <canvas
         ref={canvasRef}
         width={800}
@@ -112,6 +112,7 @@ const CanvasArea = observer(() => {
         onClick={handleCanvasClick}
         className="canvasArea"
       />
+      <div className="shizuru-regular"> Do your art</div>
     </div>
   );
 });

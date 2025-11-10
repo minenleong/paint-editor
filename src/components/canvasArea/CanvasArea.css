@@ -1,6 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+
 .canvasArea {
   border: 1px solid #ccc;
-  margin: 20px;
   cursor: crosshair;
   background: #fff;
+  
 }
+
+.canvasArea-background{
+  background: pink;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.shizuru-regular {
+  font-family: "Shizuru", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  align-items: center;
+}
+
