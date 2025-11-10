@@ -1,0 +1,6 @@
+.canvasArea {
+  border: 1px solid #ccc;
+  margin: 20px;
+  cursor: crosshair;
+  background: #fff;
+}

@@ -1,5 +1,6 @@
 import { observer } from "mobx-react-lite";
-import { useStores } from "../stores/StoreContext";
+import { useStores } from "../../stores/StoreContext";
+import "./ControlPanel.css";
 
 const ControlPanel = observer(() => {
   const { toolStore } = useStores();
@@ -8,13 +9,7 @@ const ControlPanel = observer(() => {
   if (tool === "none") return null;
 
   return (
-    <div
-      style={{
-        padding: "5px",
-        width: "300px",
-        background: "#ebebebff",
-      }}
-    >
+    <div className="controlPanel">
       {tool === "shape" && (
         <>
           <label>
@@ -28,9 +23,14 @@ const ControlPanel = observer(() => {
           <label>
             Shape:{" "}
             <select
+              id="cp_selectedShape"
               value={selectedShape}
               onChange={(e) => setShape(e.target.value)}
-              style={{ borderRadius: "8px", padding: "5px" }}
+              style={{
+                borderRadius: "8px",
+                padding: "5px",
+                background: "#ffffffff",
+              }}
             >
               <option value="circle">Circle</option>
               <option value="square">Square</option>

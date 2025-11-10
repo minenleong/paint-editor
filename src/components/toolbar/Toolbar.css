@@ -1,0 +1,8 @@
+.toolbar {
+  background: #A1D6E2;
+  display: flex;
+  gap: 2px;
+  width: 300px;
+  padding: 5px;
+  border-radius: 8px;
+}

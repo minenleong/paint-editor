@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { observer } from "mobx-react-lite";
-import { useStores } from "../stores/StoreContext";
-// import { toJS } from "mobx";
+import { useStores } from "../../stores/StoreContext";
+import "./CanvasArea.css";
 
 const CanvasArea = observer(() => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
@@ -110,12 +110,7 @@ const CanvasArea = observer(() => {
         width={800}
         height={600}
         onClick={handleCanvasClick}
-        style={{
-          border: "1px solid #ccc",
-          margin: "20px",
-          cursor: "crosshair",
-          background: "#fff",
-        }}
+        className="canvasArea"
       />
     </div>
   );

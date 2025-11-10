@@ -1,8 +1,8 @@
-import Toolbar from "./components/Toolbar";
-import ControlPanel from "./components/ControlPanel";
-import CanvasArea from "./components/CanvasArea";
-import LayerPanel from "./components/LayerPanel";
-import background from "../public/background.jpg";
+import Toolbar from "./components/toolbar/Toolbar";
+import ControlPanel from "./components/controlPanel/ControlPanel";
+import CanvasArea from "./components/canvasArea/CanvasArea";
+import LayerPanel from "./components/layerPanel/LayerPanel";
+import background from "../src/background.jpg";
 
 function App() {
   return (
