@@ -1,4 +1,3 @@
-// src/store/LayerStore.ts
 import { makeAutoObservable } from "mobx";
 
 export interface ShapeData {

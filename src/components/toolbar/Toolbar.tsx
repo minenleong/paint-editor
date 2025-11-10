@@ -1,4 +1,3 @@
-// import React from 'react';
 import { observer } from "mobx-react-lite";
 import { useStores } from "../../stores/StoreContext";
 import { PiShapes } from "react-icons/pi";

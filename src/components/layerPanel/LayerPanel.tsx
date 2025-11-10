@@ -17,13 +17,6 @@ const LayerPanel = observer(() => {
             <li
               key={layer.id}
               className="layerPanel-list"
-              // style={{
-              //   background: "#fff",
-              //   margin: "4px 0",
-              //   padding: "4px 8px",
-              //   borderRadius: "4px",
-              //   fontSize: "14px",
-              // }}
             >
               {layer.description}
             </li>
