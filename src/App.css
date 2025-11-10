@@ -1,7 +1,16 @@
 .app {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
+}
+
+.background-default {
+  background-image: url("./background.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-attachment: fixed;
 }
 
 .main {
@@ -14,4 +23,7 @@ canvas {
   background: white;
 }
 
-
+.styling {
+  display: flex;
+  justify-content: center;
+}

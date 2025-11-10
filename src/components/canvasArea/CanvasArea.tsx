@@ -112,7 +112,7 @@ const CanvasArea = observer(() => {
         onClick={handleCanvasClick}
         className="canvasArea"
       />
-      <div className="shizuru-regular"> Do your art</div>
+      <div className="shizuru-regular"> Start Painting!</div>
     </div>
   );
 });
